@@ -27,7 +27,7 @@
   width: 100%;
 }
 .content-table {
-  border-collapse: collapse;
+  border-style: ridge;
   font-size: 0.9em;
   min-width: 400px;
   width: 60%;
@@ -36,8 +36,8 @@
   margin: auto;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  border-color: rgb(0, 0, 184);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  border-color: rgb(0, 0, 0);
 }
 
 .content-table thead tr {
