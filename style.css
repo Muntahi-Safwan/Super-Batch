@@ -1,0 +1,78 @@
+* {
+  margin: 10px;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  align-items: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+}
+.header img {
+  height: 120px;
+  width: 120px;
+}
+.body {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: larger;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.content-table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 400px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-color: rgb(0, 0, 184);
+}
+
+.content-table thead tr {
+  background-color: #002b7a;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+td i {
+  color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    width: 100%;
+  }
+}
